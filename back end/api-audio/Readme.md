@@ -1,6 +1,6 @@
 
 
-# **Passo a Passo para Executar a API **
+# Passo a Passo para Executar a API
 
 ## **1. Instalar Dependências**
 
@@ -107,11 +107,3 @@ curl -X POST -H "Content-Type: application/json" -d '{"message": "Olá"}' http:/
 Configure um webhook no n8n apontando para os endpoints da API (`/webhook`) e integre-o ao WhatsApp para enviar e receber mensagens automaticamente.
 
 ---
-
-## **7. Adicionar `.env` ao `.gitignore`
-
-Para evitar que informações sensíveis sejam enviadas ao repositório, adicione o arquivo `.env` ao `.gitignore`. No arquivo `.gitignore`, insira:
-
-```
-.env
-```
